@@ -1,0 +1,25 @@
+{
+  "name": "secure-sbu-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "seed": "node seed.js",
+    "check": "node check_tables.js",
+    "ip": "node get_local_ip.js",
+    "db-structure": "node show_db_structure.js",
+    "db-data": "node show_db_data.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0",
+    "morgan": "^1.10.1",
+    "mysql2": "^3.15.3"
+  }
+}

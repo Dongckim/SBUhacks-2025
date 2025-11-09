@@ -1,0 +1,86 @@
+# ------------------------------
+# OS-specific files
+# ------------------------------
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Linux
+*~
+
+# ------------------------------
+# Node.js
+# ------------------------------
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# ------------------------------
+# Python
+# ------------------------------
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pdb
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+.venv/
+venv/
+ENV/
+env/
+*.log
+
+# ------------------------------
+# IDEs / Editors
+# ------------------------------
+# VSCode
+.vscode/
+.history/
+*.code-workspace
+
+# JetBrains (PyCharm, WebStorm, etc.)
+.idea/
+
+# ------------------------------
+# Logs / Temp / Misc
+# ------------------------------
+*.log
+*.tmp
+*.bak
+*.swp
+*.swo
+
+# ------------------------------
+# Others
+# ------------------------------
+# Ignore lock files if desired
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml
+
+# Ignore compiled or packaged outputs
+*.zip
+*.tar.gz
+
+# ------------------------------
+# Keep Markdown files!
+# ------------------------------
+!*.md
+
